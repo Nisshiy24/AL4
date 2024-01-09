@@ -12,6 +12,8 @@
 #include <memory>
 #include "Ground.h"
 #include "Skydome.h"
+#include "DebugCamera.h"
+#include "FllowCamera.h"
 
 /// <summary>
 /// ゲームシーン
@@ -57,11 +59,8 @@ private: // メンバ変数
 	/// </summary>
 	/// 
 	// 自キャラ
-	// Player* player_ = nullptr;
 	ViewProjection viewProjection_;
 	uint32_t textureHandle_ = 0u;
-	// uint32_t textureHandleGround_ = 0u;
-	// std::unique_ptr<Model> model_;
 
 	std::unique_ptr<Model> modelFighter_;
 	std::unique_ptr<Model> modelGround_;
@@ -70,4 +69,12 @@ private: // メンバ変数
 	std::unique_ptr<Player> player_;
 	std::unique_ptr<Ground> ground_;
 	std::unique_ptr<Skydome> skydome_;
+
+	//デバックカメラ
+	std::unique_ptr<DebugCamera> debugCamera_;
+	//デバックカメラ有効
+	bool isDebugCameraActive_ = false;
+
+	//追従カメラ
+	std::unique_ptr<FollowCamera> fllowCamera_;
 };

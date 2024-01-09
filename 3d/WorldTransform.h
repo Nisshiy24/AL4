@@ -60,6 +60,7 @@ private:
 	// コピー禁止
 	WorldTransform(const WorldTransform&) = delete;
 	WorldTransform& operator=(const WorldTransform&) = delete;
+	void UpdateMatrix();
 };
 
 static_assert(!std::is_copy_assignable_v<WorldTransform>);
