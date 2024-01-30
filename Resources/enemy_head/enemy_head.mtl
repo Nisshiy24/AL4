@@ -1,5 +1,5 @@
-# Blender MTL File: 'float (1).blend'
-# Material Count: 4
+# Blender MTL File: 'RS2 評価課題 敵.blend'
+# Material Count: 3
 
 newmtl マテリアル
 Ns 250.000000
@@ -10,9 +10,9 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd tex.png
+map_Kd enemy.png
 
-newmtl マテリアル.001
+newmtl マテリアル.006
 Ns 250.000000
 Ka 1.000000 1.000000 1.000000
 Kd 0.800000 0.800000 0.800000
@@ -21,9 +21,9 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd tex.png
+map_Kd enemy.png
 
-newmtl マテリアル.002
+newmtl マテリアル.007
 Ns 250.000000
 Ka 1.000000 1.000000 1.000000
 Kd 0.800000 0.800000 0.800000
@@ -32,15 +32,4 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd tex.png
-
-newmtl マテリアル.003
-Ns 250.000000
-Ka 1.000000 1.000000 1.000000
-Kd 0.800000 0.800000 0.800000
-Ks 0.500000 0.500000 0.500000
-Ke 0.000000 0.000000 0.000000
-Ni 1.450000
-d 1.000000
-illum 2
-map_Kd tex.png
+map_Kd enemy.png
